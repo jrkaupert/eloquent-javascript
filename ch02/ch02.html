@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Eloquent JS Ch 02 Exercises</title>
+  <link rel="stylesheet" href="ch02.css" charset="utf-8">
+
+</head>
+
+<body>
+  <h1>Eloquent Javascript Chapter 2 Exercises</h1>
+  <p>
+    End of chapter exercises, slightly jazzed up for HTML display &amp; user interaction in addition to their required console.log() output.
+  </p>
+  <p>
+    Pure HTML, CSS, and Javascript.
+  </p>
+  <div class="problem">
+    <h2>Triangle Generator</h2>
+    <p class="instructions">
+      Write a loop that makes seven calls to console.log() to output a triangle
+    </p>
+    <h3>Result:</h3>
+    <div class="result" id="triangleResult"></div>
+    <form class="" action="ch02.html" method="post">
+      Change Size:
+      <br>
+      <input type="text" name="triNewSize" id="triangleInput" value="">
+      <input type="button" name="triangleBtn" value="Rerun" onClick="return rerunTriangle()">
+    </form>
+
+  </div>
+  <div class="problem">
+    <h2>FizzBuzz</h2>
+    <p class="instructions">
+      Write a program that uses console.log() to print all the numbers 1 to 100. For numbers divisible by 3, instead print "Fizz". For numbers divisible by 5 , instead print "Buzz". For numbers divisible by both 3 and 5, print "FizzBuzz".
+    </p>
+    <h3>Result:</h3>
+    <div class="result" id="fizzBuzzResult"></div>
+    <form class="" action="ch02.html" method="post">
+      Change Limit:
+      <br>
+      <input type="text" name="fbNewSize" id="fbInput" value="">
+      <input type="button" name="fbBtn" value="Rerun" onClick="return rerunFizzBuzz()">
+    </form>
+  </div>
+
+  <div class="problem">
+    <h2>Chess Board</h2>
+    <p class="instructions">
+      Write a program that creates a string representing an 8x8 grid, similar to a chessboard, using "#" and " " for squares.
+    </p>
+    <h3>Result:</h3>
+    <div class="result" id="chessboardResult"></div>
+    <form class="" action="ch02.html" method="post">
+      Change Limit:
+      <br>
+      <input type="text" name="cbNewSize" id="cbInput" value="">
+      <input type="button" name="cbBtn" value="Rerun" onClick="return rerunChessboard()">
+    </form>
+  </div>
+<script type="text/javascript" src="ch02.js"></script>
+</body>
+
+</html>

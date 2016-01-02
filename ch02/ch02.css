@@ -1,0 +1,15 @@
+body {
+  background-color: #ccc;
+}
+
+.instructions {
+  font-style: italic;
+}
+
+.problem {
+  margin-top: 2rem;
+}
+
+.result {
+  margin-bottom: 1rem;
+}
